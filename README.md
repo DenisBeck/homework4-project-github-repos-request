@@ -4,7 +4,7 @@
 
 $ git clone https://github.com/DenisBeck/homework4-project-github-repos-request
 
-$ cd homework4-project-github-repos-request
+Открыть папку homework4-project-github-repos-request
 
 Необходимо запускать через локальный сервер, напрямую через протокол file работать не будет. 
 

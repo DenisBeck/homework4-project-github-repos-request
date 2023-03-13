@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:regular,700&display=swap");
+body {
+  font-family: "Roboto";
+}
+
+.page {
+  padding: 50px 0;
+}
+
+._sending {
+  background: url("/loading.gif") center no-repeat;
+}
+
+.request__container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+.request__title {
+  font-size: 36px;
+  flex: 700;
+  text-align: center;
+}
+@media (max-width: 767.98) {
+  .request__title {
+    font-size: 24px;
+  }
+}
+.request__search {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 8px;
+  margin-bottom: 50px;
+  position: relative;
+}
+.request__search span {
+  position: absolute;
+  bottom: -40px;
+  left: 20px;
+  width: 100%;
+  display: block;
+  margin-top: 10px;
+}
+.request__list {
+  min-height: 120px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.request__item {
+  border-radius: 8px;
+  padding: 20px;
+  background: #e7e7e7;
+}
+@media (max-width: 767.98px) {
+  .request__item {
+    padding: 10px;
+  }
+}
+
+.request-item {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+}
+.request-item__owner {
+  width: 40px;
+  height: 40px;
+  flex: 0 0 40px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.request-item__owner a {
+  width: 100%;
+  height: 100%;
+}
+.request-item__owner img {
+  width: 100%;
+  max-width: 100%;
+}
+@media (max-width: 767.98px) {
+  .request-item__owner {
+    width: 25px;
+    height: 25px;
+    flex: 0 0 25px;
+  }
+}
+.request-item__repo {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  gap: 10px;
+  overflow: hidden;
+}
+.request-item__link {
+  color: #666;
+  font-size: 20px;
+  font-weight: 700;
+  text-decoration: none;
+  transition: all 0.5s ease 0s;
+}
+@media (any-hover) {
+  .request-item__link:hover {
+    color: #000;
+  }
+}
+@media (max-width: 767.98px) {
+  .request-item__link {
+    font-size: 16px;
+  }
+}
+
+.input {
+  font-size: 18px;
+  background: #E8F0FE;
+  height: 60px;
+  border-radius: 8px 0 0 8px;
+  flex: 1 1 auto;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  outline: none;
+  border: none;
+}
+.input:focus, .input:focus + .submit {
+  box-shadow: 1px 1px 10px #000;
+}
+@media (max-width: 767.98px) {
+  .input {
+    font-size: 14px;
+    height: 40px;
+    padding: 0 10px;
+  }
+}
+
+.submit {
+  font-size: 18px;
+  border-radius: 0 8px 8px 0;
+  border: none;
+  outline: none;
+  height: 60px;
+  width: 60px;
+  background: #B1C88C;
+  cursor: pointer;
+}
+@media (max-width: 767.98px) {
+  .submit {
+    font-size: 14px;
+    height: 40px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

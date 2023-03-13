@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <main class="page">
+        <div class="page__request request">
+            <div class="request__container">
+                <h1 class="request__title">Поиск репозитариев Github</h1>
+                <form class="request__search" name="searchform">
+                    <input type="search" name="search" required class="input" placeholder="Найти репозитарий">
+                    <input type="submit" value="🔎" class="submit">
+                </form>
+                <div class="request__result">
+                    <ul class="request__list"></ul>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="js/script.js" type="module"></script>
+</body>
+</html>

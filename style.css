@@ -8,7 +8,7 @@ body {
 }
 
 ._sending {
-  background: url("/loading.gif") center no-repeat;
+  background: url("loading.gif") center no-repeat;
 }
 
 .request__container {
